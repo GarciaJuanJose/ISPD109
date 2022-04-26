@@ -1,0 +1,55 @@
+ul#carreras {
+ background: #333;
+ width: 940px;
+ float:left;
+ padding: 5px;
+}
+  
+ul#mcarreras li {
+ color: #fff;
+ float: left;
+ list-style: none;
+ margin: 0% 5%;
+}
+  
+ul#carreras li:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+  
+ul#carreras ul {
+ display: none;
+ position: absolute;
+ top: 49px;
+ background: #333;
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ }
+  
+ul#carreras ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:2% 0%;
+}
+ 
+ 
+ul#carreras ul li a{
+ color: #fff;
+}
+  
+ul#carreras ul li a:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+  
+ul#carreras li:hover ul ul,ul#carreras li:hover ul ul ul,ul#carreras li.iehover ul ul,ul#carreras li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+  
+ul#carreras li:hover ul,ul#carreras ul li:hover ul,ul#carreras ul ul li:hover ul,ul#carreras li.iehover ul,ul#carreras ul li.iehover ul,ul#carreras ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}
